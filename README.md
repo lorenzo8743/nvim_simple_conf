@@ -1,9 +1,8 @@
 # Neovim configuration
-This is a simple [Neovim](https://github.com/neovim/neovim) configuration to work mainly with python.
+This is a simple [Neovim](https://github.com/neovim/neovim) configuration created with [lazy.nvim](https://github.com/folke/lazy.nvim) as the plugin manager
 
 ## Plugins
 Some of the plugins used in this configuration are:
-- [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [mason-nvim-dap](https://github.com/jay-babu/mason-nvim-dap.nvim)
 - [mason.nvim](https://github.com/williamboman/mason.nvim)
