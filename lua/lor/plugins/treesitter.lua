@@ -24,9 +24,6 @@ return {
 					"lua",
 					"vim",
 					"python",
-					"markdown",
-					"markdown_inline",
-					"dart",
 				},
 				-- auto install above language parsers
 				auto_install = true,

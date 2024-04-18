@@ -9,6 +9,11 @@ local keymap = vim.keymap -- for conciseness
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x')
 
+-- Remap exit normal mode to jk
+keymap.set("i", "jk", "<ESC>", { desc = "Exit normal mode with jk" })
+
+-- Clear search highlight
+keymap.set("n", "<leader>nh>", ":nohl<CR>", { desc = "Clear search highlights" })
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
