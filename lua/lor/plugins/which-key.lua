@@ -9,6 +9,7 @@ return {
 	config = function()
 		local wk = require("which-key")
 		wk.register({
+			["<leader>x"] = { name = "+trouble" },
 			["<leader>e"] = { ":NvimTreeToggle<CR>", "Toggle NvimTree" },
 			["<leader>s"] = {
 				name = "+window",
@@ -76,12 +77,14 @@ return {
 				end,
 				"Toggle breakpoint",
 			},
+			["<Leader>d"] = { name = "Terminate debug" },
 			["<Leader>dt"] = {
 				function()
 					require("dap").terminate()
 				end,
 				"Terminate debug",
 			},
+			["<Leader>u"] = { name = "Debug UI" },
 			["<Leader>ui"] = {
 				function()
 					require("dapui").toggle()

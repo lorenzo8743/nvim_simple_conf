@@ -13,7 +13,7 @@ keymap.set("n", "x", '"_x')
 keymap.set("i", "jk", "<ESC>", { desc = "Exit normal mode with jk" })
 
 -- Clear search highlight
-keymap.set("n", "<leader>nh>", ":nohl<CR>", { desc = "Clear search highlights" })
+keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
