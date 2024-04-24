@@ -34,7 +34,7 @@ return {
 						icon = " ",
 						desc = "Settings",
 						group = "Label",
-						action = ":e /home/lorenzo/.config/nvim/init.lua",
+						action = ":e ~/.config/nvim/init.lua",
 						key = "s",
 					},
 				},
